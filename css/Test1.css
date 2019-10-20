@@ -1,0 +1,9 @@
+body{
+	background: url("https://stmed.net/sites/default/files/geometry-wallpapers-25220-2955497.png");
+	color:whitesmoke;
+}
+div{
+	border:solid whitesmoke 3px;
+	width:900px;
+	padding:4px;
+}

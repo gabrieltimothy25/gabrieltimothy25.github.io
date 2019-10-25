@@ -1,40 +1,328 @@
-body{
-	background: url("https://stmed.net/sites/default/files/geometry-wallpapers-25220-2955497.png");
-	color:whitesmoke;
-	font-family: Arial, Helvetica, sans-serif;
-}
- 
-#content {
-	border:solid whitesmoke 3px;
-	width:900px;
-	padding:4px;
-}
-
-
-#content nav{
-    display: inline-block;
-    justify-content: space-between;
-	align-items: center;
-	margin: 0 auto;
-	background: white;	
-	border: 5px solid black;
-}
-
-#content nav ul{
-    list-style-type: none;
-	list-style-position: outside;
-	padding: 10px 41px;
-
-}
-#content nav ul li{
-	display: inline-block;
-	padding: 10px 10px;
-}
-#content nav ul li a{
-    padding: 15px 20px;
-    border: 1px solid black;
+html {
+	background-color: black;
 }
 
 footer {
-	margin: 100px 490px 10px
+	margin-top: 2600px;
+	width: 100%;
+	height: 100px;
+	background-color: black
+}
+
+footer p{
+	font-family: 'Cairo', sans-serif;
+	color: white;
+}
+
+header {
+	background: url("https://steamuserimages-a.akamaihd.net/ugc/964233665630566597/B5B0BA5924C58DD388C85A7EF91FE4D4BFBC4DB3/");
+	background-repeat: round; 
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+header h1 {
+	margin-top: 200px;
+	margin-left: 650px;
+	font-size: 100px;
+	font-family: 'Cairo', sans-serif;
+	line-height: 60px;
+}
+
+header h3 {
+	margin-top: 50px;
+	margin-left: 700px;
+	font-size: 50px;
+	font-family: 'Cairo', sans-serif;
+	line-height: 60px;
+}
+
+header h5 {
+	margin-top: 50px;
+	margin-left:50px;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 35px;
+	color:grey;
+	text-align: center;
+}
+
+header nav{
+	margin-left: 430px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 200px;
+    height: 200px;
+}
+
+header nav ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+header nav ul li{
+	display: inline-block;
+	font-family:'Open Sans Condensed', sans-serif;
+}
+header nav ul li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+main {
+    width: 80%;
+    margin: 960px auto;
+	min-height: 200px;
+	max-height:500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutme {
+	background-image: url("http://7desktopthemes.com/images/dark-cyan-color-wallpaper-3.jpg");
+	width: 100%;	
+	height: 100%;
+	position: absolute;
+	top: auto;
+	left: 0;
+}
+
+#titleabout {
+	background-image: url("../image/aboutmewallpaper.jpg");
+	width: 100%;
+	height: 15%;		
+	position: relative;
+	width: 1300px;	
+	/* top: px; */
+	left: 300px;
+	border: 10px solid black;
+}
+
+#titleabout h1 {
+	font-size: 70px;
+	margin-left: 500px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Cairo', sans-serif;
+	color: white
+}
+
+#aboutme #personal {
+	margin-left: 300px;
+	margin-top: 20px;
+	font-size: 20px;
+	width: 450px;
+	height: 220px;
+	font-family: 'Cairo', sans-serif;
+	color: black;
+	display: inline-block;
+	background-color: rgb(143, 142, 142);
+}
+
+#aboutme #personal p{
+	margin-left: 20px;
+}
+
+#aboutme #objective{
+	margin-left: 20px;
+	/* margin-top: 0px; */
+	font-size: 20px;
+	min-height: 220px;
+	width: 845px;
+	font-family: 'Cairo', sans-serif;
+	color: white;
+	display: inline-block;
+	background-color: black;
+}
+
+#aboutme #objective h1{
+	margin-left: 20px;
+}
+
+#aboutme #objective p{
+	margin-left: 20px;
+}
+
+#aboutme #education{
+	margin-left: 300px;
+	margin-top: 20px;
+	font-size: 20px;
+	min-height: 220px;
+	width: 845px;
+	height: 300px;
+	font-family: 'Cairo', sans-serif;
+	color: white;
+	display: inline-block;
+	background-color: black;
+}
+
+#aboutme #education h1{
+	margin-left: 20px;
+}
+
+#aboutme #education p{
+	margin-left: 20px;
+}
+
+
+#aboutme #skills {
+	margin-left: 300px;
+	margin-top: 20px;
+	font-size: 20px;
+	width: 1322px;
+	height: 150px;
+	font-family: 'Cairo', sans-serif;
+	color: black; 
+	display: inline-block;
+	background-color: rgb(143, 142, 142);
+}
+
+#aboutme #skills h1{
+	margin-left: 20px;
+}
+
+#aboutme #skills p{
+	margin-left: 20px;
+}
+
+#portfolios {
+	background-image: url("https://i.pinimg.com/originals/ab/f9/c4/abf9c465090cf95b6fe08ec816e365d0.jpg");
+	width: 100%;	
+	height: 100%;
+	position: absolute;
+	top: 1970px;
+	left: 0;
+}
+
+#portfoliotitle {
+	background-image: url("../image/portfoliotitlewallpaper.jpg");
+	width: 100%;
+	height: 15%;		
+	position: relative;
+	/* top: px; */
+	left: 0;
+	border: 10px solid black;
+}
+
+#portfoliotitle h1{
+	font-size: 70px;
+	margin-left: 450px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: 'Cairo', sans-serif;
+	color: white
+}
+
+#portfolios div {
+	margin-left: 300px;
+	margin-top: 40px;
+	font-size: 30px;
+	width: 1300px;
+	font-family: 'Cairo', sans-serif;
+	color: rgb(88, 86, 86);
+}
+
+#portfolios .row {
+	margin-left: 0px;
+}
+
+#portfolios nav{
+	margin-left: 255px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#portfolios nav img{
+    width: 400px;
+    height: 270px;
+}
+
+#portfolios nav ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+#portfolios nav ul li{
+	display: inline-block;
+	font-family: 'Cairo', sans-serif;
+}
+
+#portfolios nav ul li h2{
+	color: whitesmoke
+}
+
+#portfolios nav ul li a{
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+#socmed {
+	background-image: url("https://stmed.net/sites/default/files/geometry-wallpapers-25220-2955497.png");
+	width: 100%;	
+	height: 80%;
+	position: absolute;
+	top: 2970px;
+	left: 0;
+}
+
+#socmed nav{
+	/* margin-top: 4000px; */
+	margin-left: 430px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;;
+}
+#socmed nav img{
+    width: 150px;
+    height: 150px;
+}
+
+#socmed nav ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+#socmed nav ul li{
+	display: inline-block;
+	font-family:'Open Sans Condensed', sans-serif;
+}
+#socmed nav ul li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+#socmed div {
+	margin-left: 300px;
+	margin-top: 40px;
+	font-size: 30px;
+	width: 1300px;
+	font-family: 'Cairo', sans-serif;
+	color: rgb(88, 86, 86);
+}
+
+#soctitle {
+	background-image: url("../image/aboutmewallpaper.jpg");
+	width: 100%;
+	height: 15%;		
+	position: relative;
+	/* top: px; */
+	left: 0;
+	border: 10px solid black;
+}
+
+#soctitle h1{
+	font-size: 70px;
+	margin-left: 500px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Cairo', sans-serif;
+	color: white
 }

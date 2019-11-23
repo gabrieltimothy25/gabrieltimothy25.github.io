@@ -1,0 +1,31 @@
+div#memoryBoard {
+    background: url('bg.png');
+    border: black 4px solid;
+    width: 1272px;
+    height: 830px;
+    padding: 24px;
+    margin: 50px auto;
+}
+
+div#memoryBoard div {
+    background: url('tile_bg6.png');
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;  
+    border: #000 4px solid;
+    width: 250px;
+    height: 71px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+}
+body {
+    background: url('bg.jpg');
+    background-size: cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;   
+};
+

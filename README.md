@@ -6,6 +6,9 @@
 - Pemain hanya bisa membuka dan melihat isi dari 2 kartu di saat yang bersamaan. 
 - Bila kedua kartu yang pemain buka merupakan bahasa pemograman yang sama, kedua kartu tersebut akan terus terbuka sampai akhir permainan.
 - Namun, apabila kedua kartu tersebut tidak merupakan bahasa pemograman yang sama, kedua tersebut akan tertutup dengan sendirinya. Tiap tebakan yang salah, pemain akan diberi waktu kurang dari sedetik untuk melihat kartu yang telah mereka buka.
+- Kartu yang belum pernah terbuka sebelumnya akan menampilkan tanda tanya '?'
+- Sementara itu Kartu yang sudah pernah terbuka namun pasangannya belum ditemukan tetap tertutup, namun tanda tanyanya hilang
+- Kartu yang sukses ditemukan dengan pasangannya di sebuah turn akan terbuka terus hingga akhir permainan.
 - Tujuan akhir permainan adalah untuk menebak tiap pasangan kartu dengan benar hingga seluruh kartu terbuka.
 - Pemain bisa memilih untuk mulai dan menshuffle ulang permainan ini setelah Ia tamatkan
 
